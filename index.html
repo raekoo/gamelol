@@ -369,10 +369,6 @@
                 legOffset = frame % 2 === 0 ? -2 : 2;
             }
             
-            // Shadow
-            ctx.fillStyle = 'rgba(0, 0, 0, 0.3)';
-            ctx.ellipse(x, y + 18, 16, 6, 0, 0, Math.PI * 2);
-            ctx.fill();
             
             // Draw sheep based on direction
             if (sheep.direction === 'down') {
